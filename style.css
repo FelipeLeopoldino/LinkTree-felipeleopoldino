@@ -30,7 +30,7 @@ body {
 
 ul {
   list-style: none;
-  margin: 4.8rem 0;
+  margin: 2rem 0;
 }
 
 h1 {
@@ -67,6 +67,22 @@ p {
   color: #a6a6a6;
 }
 
+button {
+  width: 15rem;
+  border-radius: 1rem;
+  height: 2rem;
+  background-color: #2e475d;
+  cursor: pointer;
+  transition: 400ms;
+  border: none;
+}
+
+button:hover {
+  background-color: #5683aa;
+  box-shadow: 1px 1px 1px 1px ;
+}
+
+
 .linkFooter {
   font-size: 1rem;
   text-transform: capitalize;
@@ -76,16 +92,3 @@ p {
   color: #5683aa;
 }
 
-button {
-  width: 15rem;
-  border-radius: 1rem;
-  height: 2rem;
-  background-color: #2e475d;
-  cursor: pointer;
-  transition: 400ms;
-}
-
-button:hover {
-  background-color: #5683aa;
-  box-shadow: 1px 1px 1px 1px ;
-}
